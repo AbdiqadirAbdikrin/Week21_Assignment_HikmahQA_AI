@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 });
 
 // Mount API routes
-app.use("/api/question", qaRoute);
+app.use("/api/qa", qaRoute);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
